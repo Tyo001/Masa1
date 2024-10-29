@@ -16,7 +16,7 @@ base_data = {
 }
 
 # Masa numaraları listesi
-masa_list = [55]
+masa_list = [52, 48]
 
 # Bağlantı havuzu oluştur (örneğin, 20 bağlantıya izin ver)
 http = urllib3.PoolManager(num_pools=10, maxsize=20, block=True)
